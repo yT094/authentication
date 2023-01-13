@@ -3,10 +3,10 @@ const app = express();
 const port = 8000;
 
 const realms = [
-  { realm: "protected_docs", path: "/protected_docs", users: ["chyingp"] },
+  { realm: "protected_docs", path: "/protected_docs", users: ["coderycs"] },
 ];
 
-const users = [{ usrname: "chyingp", passwd: "123456" }];
+const users = [{ usrname: "coderycs", passwd: "123456" }];
 
 // 检查资源路径对应的realm，比如 path:'/protected_docs' => realm:'protected_docs'
 function findRealm(path) {
